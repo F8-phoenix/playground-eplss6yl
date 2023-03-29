@@ -160,7 +160,7 @@ Dans le cas d'une constante dont on fixe la valeur avant l'exécution, on nommer
 dite [pascal_case](https://fr.wikipedia.org/wiki/Snake_case) :
 
 ```js
-const COULEUR_ROUGE = "#foo"
+const COULEUR_ROUGE = "#f00"
 ```
 
 Le deuxième cas concerne une constante dont la valeur est calculée à l'exécution. Dans ce cas elle sera notée de la même manière qu'une variable :
