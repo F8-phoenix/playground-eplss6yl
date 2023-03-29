@@ -2,7 +2,7 @@
 
 ## Les variables
 
-En informatique, une variable est l'association d'un nom et d'une valeur. 
+En informatique, une variable est l'association d'un nom et d'une valeur.
 
 La valeur de la variable peut évoluer au cours de l'exécution d'un programme. Par exemple une variable ``` saison ``` pourra voir sa valeur passer de _printemps_ à _été_.
 
@@ -24,7 +24,7 @@ saison = "été"
 
 Remettre le mot clé ``` let ``` revient à redéclarer la variable et provoque une erreur.
 
-On peut noter qu'il est possible de déclarer une variable sans lui assigner de valeur : 
+On peut noter qu'il est possible de déclarer une variable sans lui assigner de valeur :
 
 ```js
 let saison
@@ -78,16 +78,105 @@ let total = nombre1 / nombre2 + 13 // total est égal à 15
 
 ### String
 
+Un string représente une chaîne de caractères. Cette chaine de caractères doit être passée entre guillemets afin que le langage ne la  confonde pas avec un élément du langage.
+
+```js
+let bonjour = 'Bonjour' // Avec des guillemets simples
+let prenom = "Sam"      // Avec des guillemets doubles
+```
+
+Il est possible de concaténer 2 chaines de caractères ensemble à l'aide de l'opérateur ``` + ``` :
+
+```js
+let bonjour = "Bonjour"
+let prenom = "Sam"
+
+let sequence = bonjour + " " + prenom
+```
+Ici la valeur de la variable sequence est ``` Bonjour Sam ```
+
 ### Boolean
+
+Un booléen est type logique qui peut prendre 2 valeurs : ``` true ``` (vrai) ou ``` false ``` (faux).
+
+Le résultat d'une comparaison est un booléen :
+
+```js
+let age = 18
+
+let estMajeur = age > 18 // estMajeur vaut true
+```
+
+Il est bien sûr possible d'assigner une valeur booléenne directement à une variable :
+
+```js
+let estValide = false
+```
 
 ### Undefined
 
+``` undefined ``` est une valeur spéciale propre à JavaScript. Il signifie qu'aucune valeur n'a été attribuée. C'est le cas lorsqu'une variable est déclarée mais qu'aucune valeur ne lui est attribuée :
+
+```js
+let saison // la valeur de la variable est undefined
+```
+
 ### Null
 
-## Conventions de nommage au CFPT
+``` null ``` est une autre valeur spéciale que l'on pourrait traduire par "rien". Il signifie donc que l'on a pas de valeur connue à assigner. ``` null ``` est une valeur souvent utilisée lorsque l'on a un peu d'expérience en programmation.
 
-## Affectation
+```js
+let dateNaissance = null // la valeur de la variable est null
+```
 
-## Concaténation
+## Nommage et conventions de nommage au CFPT
+
+Les variables (et constantes) étant des éléments centraux lorsque l'on développe un site ou un logiciel, il est important de les nommer de manière claire.
+
+Ainsi le nom de la variable doit refléter son contenu :
+
+```js
+let p = "Sam" // À éviter
+
+let prenom = "Samantha" // Le nom est parlant
+```
+
+Quelques limitations existent sur les noms qu'il est possible de donner aux variables :
+
+* Le nom d'une variable ne peut contenir que des lettres, des chiffres, le symbole ``` $ ``` ou le symbole ``` _ ```
+* Une variable ne peut pas commencer par un chiffre
+* Les espaces sont interdits
+
+À ces quelques restrictions viennent s'ajouter des conventions de nommages. Le CFPT Informatique utilise la notation dite [camelCase](https://fr.wikipedia.org/wiki/Camel_case). La variable commencera par une minsucule puis chaque mot commencera par une majuscule :
+
+```js
+let monPrenom = "James"
+let monNomDeFamille = "Connelly"
+```
+
+Concernant les constantes, il aura 2 manières de faire.
+
+Dans le cas d'une constante dont on fixe la valeur avant l'exécution, on nommera cette dernière en majusucule et et séparant les mots avec la notation
+dite [pascal_case](https://fr.wikipedia.org/wiki/Snake_case) :
+
+```js
+const COULEUR_ROUGE = "#foo"
+```
+
+Le deuxième cas concerne une constante dont la valeur est calculée à l'exécution. Dans ce cas elle sera notée de la même manière qu'une variable :
+
+```js
+let monFormulaire = document.querySelector('form')
+```
 
 ## Mots réservés
+
+Comme dans chaque langage, certains mots clés sont réservés et ne peuvent pas être utilisés pour déclarer une variable. Par exemple :
+
+Comme dans chaque langage, certains mots clés sont réservés et ne peuvent pas être utilisés pour déclarer une variable.
+
+```js
+let let = "est invalide" // let est un mot réservé
+```
+
+La liste complète est disponible sur le site de [w3schools](https://www.w3schools.com/js/js_reserved.asp).
