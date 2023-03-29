@@ -1,7 +1,13 @@
-title: Node.js Project
+title: "Module 288 : Utilisation des techniques de programmation dans le Frontend Web"
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+- title: L'architecture client-serveur
+  statement: markdowns/01_client_serveur.md
+- title: Les variables et les constantes
+  statement: markdowns/02_variables_constantes.md
+- title: Les conditions
+  statement: markdowns/03_conditions.md
+- title: Les boucles
+  statement: markdowns/04_boucles.md
 projects:
   nodejs:
     root: /nodejs-project
