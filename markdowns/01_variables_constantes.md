@@ -52,6 +52,12 @@ L'utilisation d'une constante est conseillée notamment dans le cas ou une valeu
 
 Un autre avantage est qu'il est que le nom de la constante est plus facile à comprendre que le code correspondant.
 
+### Exercice
+
+Écrivez une constante nommée ``` LE_MODULE ```, qui prendra comme valeur _Module 288_
+
+@[Écrivez la constante LE_MODULE]({"stubs":["01_creer_constante.js"], "command":"node_modules/mocha/bin/mocha 01_creer_constante.test.js --reporter list"})
+
 ## Les types
 
 Chaque valeur en JavaScript est d'un certain type. Dans le cadre de ce module, nous verrons les types suivants :
