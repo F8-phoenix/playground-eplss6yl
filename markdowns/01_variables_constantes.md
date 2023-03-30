@@ -304,5 +304,5 @@ Les questions ci-dessous permettent de valider les connaissances acquises.
 
 ?[Quel nom de variable respecte les normes du CFPT ?]
 -[ ] ma_variable
--[ ] maVariable
+-[x] maVariable
 -[ ] MA_VARIABLE
