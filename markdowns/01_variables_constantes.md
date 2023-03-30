@@ -242,3 +242,67 @@ let let = "est invalide" // let est un mot réservé
 ```
 
 La liste complète est disponible sur le site de [w3schools](https://www.w3schools.com/js/js_reserved.asp).
+
+## Question de fin de chapitre
+
+Les questions ci-dessous permettent de valider les connaissances acquises.
+
+?[Quel mot clé permet de définir une variable ?]
+-[ ] var
+-[x] let
+-[ ] const
+
+?[Quel mot clé permet de définir une constante ?]
+-[ ] var
+-[ ] let
+-[x] const
+
+?[Soit les variables nombre1="3" et numeroModule=12. Quel est le résultat de la concaténation de ces 2 variables ?]
+-[ ] 15
+-[x] 312
+-[ ] Cela provoque une erreur
+
+?[Quel sont les valeurs que peut prendre une variable de type booléen ?]
+-[x] true
+-[x] false
+-[ ] vrai
+-[ ] faux
+-[ ] 1
+-[ ] 0
+
+?[Quel le type d'une variable à laquelle la valeur 288 a été assignée ?]
+-[x] number
+-[ ] int
+-[ ] string
+-[ ] null
+-[ ] undefined
+-[ ] boolean
+
+?[Quel le type d'une variable à laquelle la valeur 'true' a été assignée ?]
+-[ ] number
+-[ ] int
+-[x] string
+-[ ] null
+-[ ] undefined
+-[ ] boolean
+
+?[Quel le type d'une variable à laquelle aucune valeur n'a été assignée ?]
+-[ ] number
+-[ ] int
+-[ ] string
+-[ ] null
+-[x] undefined
+-[ ] boolean
+
+?[Quels noms de variables sont valides en JavaScript ?]
+-[x] _
+-[x] $
+-[ ] 123abc
+-[x] ma_variable
+-[x] maVariable
+-[x] maVariable1
+
+?[Quel nom de variable respecte les normes du CFPT ?]
+-[ ] ma_variable
+-[ ] maVariable
+-[ ] MA_VARIABLE
