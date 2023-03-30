@@ -222,6 +222,15 @@ Le deuxième cas concerne une constante dont la valeur est calculée à l'exécu
 let monFormulaire = document.querySelector('form')
 ```
 
+### Exercice
+
+Transformez les séquences ci-dessous en nom de variables et constantes respectant les conventions de nommage :
+
+* ``` madame la doyenne ``` est le nom de la variable, assignez lui la valeur _Sandrine Manfrini_
+* transformez ``` valeur de pi ``` est le nom de la constante, assignez lui la valeur _3.14_
+
+@[Écrivez les variables et constantes demandées]({"stubs":["01_test_conventions.js"], "command":"node_modules/mocha/bin/mocha 01_test_conventions.test.js --reporter list"})
+
 ## Mots réservés
 
 Comme dans chaque langage, certains mots clés sont réservés et ne peuvent pas être utilisés pour déclarer une variable. Par exemple :
