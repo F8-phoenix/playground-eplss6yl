@@ -88,6 +88,16 @@ let nombre2 = 5
 let total = nombre1 / nombre2 + 13 // total est égal à 15
 ```
 
+### Exercice
+
+Écrivez 3 variables :
+
+* une variable nommée ``` nombre1 ```, qui prendra comme valeur _5_
+* une variable nommée ``` nombre2 ```, qui prendra comme valeur _12_
+* une variable nommée ``` total ```, qui prendra comme valeur l'addition des variables nombre1 et nombre2
+
+@[Écrivez les variables demandées]({"stubs":["01_test_number.js"], "command":"node_modules/mocha/bin/mocha 01_test_number.test.js --reporter list"})
+
 ### String
 
 Un string représente une chaîne de caractères. Cette chaine de caractères doit être passée entre guillemets afin que le langage ne la  confonde pas avec un élément du langage.
