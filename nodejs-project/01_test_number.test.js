@@ -1,6 +1,6 @@
 const utils = require('./utils.js');
 const assert = require('assert');
-const ex = require('./exo.js');
+const ex = require('./01_test_number.js');
 
 it("test'", function () {
     try
