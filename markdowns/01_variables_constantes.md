@@ -144,6 +144,28 @@ Il est bien sûr possible d'assigner une valeur booléenne directement à une va
 let estValide = false
 ```
 
+### Exercice
+
+Écrivez 2 variables :
+
+* une variable nommée ``` estVrai ```, qui prendra comme valeur _true_
+* une variable nommée ``` estFaux ```, qui prendra valuer _l'inverse_ de la variable ``` estVrai ```. Essayez de le faire en utilisant la variable ``` estVrai ```
+
+@[Écrivez les variable demandées ]({"stubs":["01_test_bool.js"], "command":"node_modules/mocha/bin/mocha 01_test_bool.test.js --reporter list"})
+
+::: Correction
+En informatique, la négation d'une valeur booléenne se fait à l'aide du ``` ! ```.
+
+Ainsi l'inversion de la valeur se fait de la manière suivante :
+
+```js
+let estValide = true
+let estInvalide = !estValide
+```
+
+Si vous n'avez pas trouvé la solution, modifiez votre  réponse ci-dessus.
+:::
+
 ### Undefined
 
 ``` undefined ``` est une valeur spéciale propre à JavaScript. Il signifie qu'aucune valeur n'a été attribuée. C'est le cas lorsqu'une variable est déclarée mais qu'aucune valeur ne lui est attribuée :
