@@ -5,8 +5,8 @@ const ex = require('./01_creer_constante.js');
 it("Création d'une constante'", function () {
     try
     {
-        assert.equal("Module 288", ex.LE_MODULE);
-        assert.equal(typeof(ex.LE_MODULE), "string");
+        assert.strictEqual("Module 288", ex.LE_MODULE);
+        assert.strictEqual(typeof(ex.LE_MODULE), "string");
     }
     catch (error)
     {

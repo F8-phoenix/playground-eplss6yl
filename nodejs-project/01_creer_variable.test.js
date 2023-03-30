@@ -5,8 +5,8 @@ const ex = require('./01_creer_variable.js');
 it("Création d'une variable'", function () {
     try
     {
-        assert.equal("Bonjour tout le monde !", ex.bonjour);
-        assert.equal(typeof(ex.bonjour), "string");
+        assert.strictEqual("Bonjour tout le monde !", ex.bonjour);
+        assert.strictEqual(typeof(ex.bonjour), "string");
     }
     catch (error)
     {
