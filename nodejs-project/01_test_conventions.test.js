@@ -16,7 +16,7 @@ it("création de la variable'", function () {
     }
 });
 
-it("concaténation de la constante'", function () {
+it("création de la constante'", function () {
     try
     {
         assert.strictEqual(3.14, ex.VALEUR_DE_PI);
