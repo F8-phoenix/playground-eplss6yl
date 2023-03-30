@@ -8,7 +8,7 @@ it("création des variables'", function () {
         assert.strictEqual(true, ex.estVrai);
         assert.strictEqual(typeof(ex.estVrai), "boolean");
 
-        assert.strictEqual(true, ex.estFaux);
+        assert.strictEqual(false, ex.estFaux);
         assert.strictEqual(typeof(ex.estFaux), "boolean");
     }
     catch (error)
