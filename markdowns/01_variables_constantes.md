@@ -117,6 +117,15 @@ let sequence = bonjour + " " + prenom
 ```
 Ici la valeur de la variable sequence est ``` Bonjour Sam ```
 
+### Exercice
+
+Écrivez 2 variables :
+
+* une variable nommée ``` m288 ```, qui prendra comme valeur _module 288_
+* une variable nommée ``` phrase ```, qui prendra comme qui sera la concaténation de _Nous suivons le_ et de la variable m288. N'oubliez pas l'espace entre les 2 parties
+
+@[Écrivez la variable demandée et faite la concaténation]({"stubs":["01_test_string.js"], "command":"node_modules/mocha/bin/mocha 01_test_string.test.js --reporter list"})
+
 ### Boolean
 
 Un booléen est type logique qui peut prendre 2 valeurs : ``` true ``` (vrai) ou ``` false ``` (faux).
