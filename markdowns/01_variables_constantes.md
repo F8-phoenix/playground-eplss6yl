@@ -257,7 +257,7 @@ Les questions ci-dessous permettent de valider les connaissances acquises.
 -[ ] let
 -[x] const
 
-?[Soit les variables nombre1="3" et numeroModule=12. Quel est le résultat de la concaténation de ces 2 variables ?]
+?[Soit les variables nombre1="3" et nombre=12. Quel est le résultat de la concaténation nombre1 + nombre2 ?]
 -[ ] 15
 -[x] 312
 -[ ] Cela provoque une erreur
