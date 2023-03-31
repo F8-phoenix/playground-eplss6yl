@@ -8,7 +8,7 @@ La valeur de la variable peut évoluer au cours de l'exécution d'un programme. 
 
 On peut définir une variable comme une boîte dans laquelle nous allons stocker une information. Si nous souhaitons changer la valeur d'une variable, l'ancienne est sortie de la boite et est remplacée par la nouvelle.
 
-![Les variables](https://github.com/edupellaux/playground-cbebliux/blob/master/images/01_boxes.png "Les variables")
+![Les variables](https://raw.githubusercontent.com/edupellaux/playground-cbebliux/master/images/01_boxes.png "Les variables")
 
 En javascript une variable se déclare à l'aide du mot clé ``` let ```. Ainsi déclarer une variable _saison_ à laquelle nous affectons la valeur _printemps_ se fait de la manière suivante :
 
