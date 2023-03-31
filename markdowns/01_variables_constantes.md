@@ -32,6 +32,12 @@ let saison
 
 Il faut encore noter que l'affectation d'une valeur à une variable se fait à l'aide **d'un seul** signe ``` = ```. Nous verrons les comparaisons avec le chapitre des conditions.
 
+@[Écrivez la variable demandée]({"stubs":["01_creer_variable.js"], "command":"node_modules/mocha/bin/mocha 01_creer_variable.test.js --reporter list"})
+
+### Exercice
+
+Écrivez une variable nommée ``` bonjour ```, qui prendra comme valeur _Bonjour tout le monde !_
+
 ## Les constantes
 
 Une constante, contrairement à une variable, ne peut pas voir sa valeur modifiée une fois qu'elle à été déclarée. Une constante se déclare à l'aide du mot ``` const ``` :
