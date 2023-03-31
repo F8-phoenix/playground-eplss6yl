@@ -154,7 +154,7 @@ let monPrenom = "James"
 let monNomDeFamille = "Connelly"
 ```
 
-Concernant les constantes, il aura 2 manières de faire.
+Concernant les constantes, il y aura 2 manières de faire.
 
 Dans le cas d'une constante dont on fixe la valeur avant l'exécution, on nommera cette dernière en majusucule et et séparant les mots avec la notation
 dite [pascal_case](https://fr.wikipedia.org/wiki/Snake_case) :
