@@ -294,15 +294,18 @@ Les questions ci-dessous permettent de valider les connaissances acquises.
 -[x] undefined
 -[ ] boolean
 
-?[Quels noms de variables sont valides en JavaScript ?]
--[x] _
--[x] $
--[ ] 123abc
--[x] ma_variable
--[x] maVariable
--[x] maVariable1
+?[Quels déclarations de variables sont valides en JavaScript ?]
+-[x] let _ = ''
+-[x] let $  = ''
+-[ ] let 123abc = ''
+-[x] let ma_variable = ''
+-[x] let maVariable = ''
+-[x] let maVariable1 = ''
 
-?[Quel nom de variable respecte les normes du CFPT ?]
--[ ] ma_variable
--[x] maVariable
--[ ] MA_VARIABLE
+?[Quels déclarations de variables et constantes respectent les normes du CFPT ?]
+-[ ] let ma_couleur = '#f00'
+-[x] let maCouleur = '#f00'
+-[ ] let MA_COULEUR = '#f00'
+-[x] const MA_COULEUR = '#f00'
+-[ ] const maCouleur = '#f00'
+-[x] const leForm = document.querySelector('form')
