@@ -93,6 +93,13 @@ Le tableau ci-dessous montre les différents opérateurs de comparaisons possibl
 
 @[Écrivez le test de comparaison]({"stubs":["02_comparaison_nombres.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_nombres.test.js --reporter list"})
 
+Écrivez un test de comparaison qui compare les valeurs des variables ``` variable1 ``` et ``` variable2 ``` :
+
+* si les 2 valeurs sont identiques **quelque soit leurs types**, assignez à la variable ``` retour ``` la valeur **true**
+* sinon assignez à la variable ``` retour ``` la valeur **false**
+
+@[Écrivez le test de comparaison]({"stubs":["02_comparaison_sans_type.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_sans_type.test.js --reporter list"})
+
 ## Les conversions implicites
 
 JavaScript étant un langage faiblement typé, il est possible de comparer une chaine de caractère (ci-dessus '7') avec un nombre. Dans ce cas JavaScript va convertir la chaine de caractères '7' en nombre. La comparaison simple (==) retournera alors _true_ si l'on fait la comparaison ``` '7' === 7 ```.
