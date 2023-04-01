@@ -110,6 +110,16 @@ D'autres comparaisons peuvent donner un résultat qui peut sembler étrange, par
 
 Pour ces raisons il est conseillé de prendre l'habitude de toujours utiliser la comparaison stricte ``` === ```, qui peut éviter des comportements qui peuvent sembler étranges.
 
+### Exercice
+
+Écrivez un test de comparaison qui compare les valeurs des variables ``` variable1 ``` et ``` variable2 ``` :
+
+* si les 2 valeurs et leurs types sont identiques, assignez à la variable ``` retour ``` la valeur **true**
+* sinon assignez à la variable ``` retour ``` la valeur **false**
+
+@[Écrivez le test de comparaison]({"stubs":["02_comparaison_sans_type.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_sans_type.test.js --reporter list"})
+
+
 ### Les opérateurs logiques
 
 Il est possible que l'on souhaite que plusieurs conditions soient réunies avant d'exécuter une instruction. Dans ce cas il faut utiliser l'opérateur logique ``` && ```. Il signifie qu'autant la condition **et** celle à sa droite doivent être valides pour que le bloc d'instructions soit exécuté.
