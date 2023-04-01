@@ -76,6 +76,16 @@ Le tableau ci-dessous montre les différents opérateurs de comparaisons possibl
 | ===       | Est égal à (valeur et type)       | '7' === 7 | false    |
 | !==       | Est différent de (valeur et type) | '7' === 7 | true     |
 
+### Exercice
+
+Écrivez un test de comparaison qui compare 2 variables de type _number_, ``` nombre1 ``` et ``` nombre2 ``` :
+
+* si ``` nombre1 ``` est plus petit que ``` nombre2 ```, assignez à la variable ``` phrase ``` la valeur **nombre1 est plus petit**
+* si ``` nombre1 ``` est plus grand que ``` nombre2 ```, assignez à la variable ``` phrase ``` la valeur **nombre1 est plus grand**
+* sinon assignez à la variable ``` phrase ``` la valeur **égalité**
+
+@[Écrivez le test de comparaison demandé]({"stubs":["02_comparaison_nombres.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_nombres.test.js --reporter list"})
+
 ## Les conversions implicites
 
 JavaScript étant un langage faiblement typé, il est possible de comparer une chaine de caractère (ci-dessus '7') avec un nombre. Dans ce cas JavaScript va convertir la chaine de caractères '7' en nombre. La comparaison simple (==) retournera alors _true_ si l'on fait la comparaison ``` '7' === 7 ```.
