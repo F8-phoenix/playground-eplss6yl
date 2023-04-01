@@ -84,7 +84,7 @@ Le tableau ci-dessous montre les différents opérateurs de comparaisons possibl
 * si ``` nombre1 ``` est plus grand que ``` nombre2 ```, assignez à la variable ``` phrase ``` la valeur **nombre1 est plus grand**
 * sinon assignez à la variable ``` phrase ``` la valeur **égalité**
 
-@[Écrivez le test de comparaison demandé]({"stubs":["02_comparaison_nombres.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_nombres.test.js --reporter list"})
+@[Écrivez le test de comparaison]({"stubs":["02_comparaison_nombres.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_nombres.test.js --reporter list"})
 
 ## Les conversions implicites
 
