@@ -1,7 +1,7 @@
 let nombre = 0
 
 // {
-function test (nombre) {
+function comparer5 (nombre) {
 // }
 let retour = ""
 
@@ -14,6 +14,6 @@ let retour = ""
     return retour
 }
 module.exports = {
-    test : test
+    comparer5 : comparer5
 };
 // }

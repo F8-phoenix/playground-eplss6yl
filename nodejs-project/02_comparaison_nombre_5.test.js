@@ -6,8 +6,8 @@ describe('Test de comparaison de valeurs', () => {
     it("Test de nombre plus petit ou égal à 5", () => {
         try
         {
-            assert.strictEqual(true, ex.test(4));
-            assert.strictEqual(true, ex.test(5));
+            assert.strictEqual(true, ex.comparer5(4));
+            assert.strictEqual(true, ex.comparer5(5));
         }
         catch (error)
         {
@@ -21,7 +21,7 @@ describe('Test de comparaison de valeurs', () => {
     it("Test de nombre plus grand que 5", () => {
         try
         {
-            assert.strictEqual(false, ex.test(6));
+            assert.strictEqual(false, ex.comparer5(6));
         }
         catch (error)
         {
