@@ -119,12 +119,23 @@ Pour ces raisons il est conseillé de prendre l'habitude de toujours utiliser la
 
 @[Écrivez le test de comparaison]({"stubs":["02_comparaison_sans_type.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_sans_type.test.js --reporter list"})
 
-
 ### Les opérateurs logiques
 
 Il est possible que l'on souhaite que plusieurs conditions soient réunies avant d'exécuter une instruction. Dans ce cas il faut utiliser l'opérateur logique ``` && ```. Il signifie qu'autant la condition **et** celle à sa droite doivent être valides pour que le bloc d'instructions soit exécuté.
 
 Il se peut également que l'on souhaite qu'une condition **ou** une autre ne soit valide pour exécuter le bloc d'instructions. Dans ce cas il faut utiliser l'opérateur logique ``` || ```.
+
+### Exercices
+
+Écrivez un test de comparaison qui utilise 3 variables ``` age ```, ``` estEtudiant ``` et ``` phrase ``` :
+
+* si ``` age ``` est plus grand ou égal à _18_ **et** si ``` estEtudiant ``` est égal à _true_, assignez à la variable ``` phrase ``` la valeur **Je suis majeur et étudiant**
+* sinon si ``` age ``` est plus grand ou égal à _18_ **et** si ``` estEtudiant ``` est égal à _false_, assignez à la variable ``` phrase ``` la valeur **Je suis majeur mais pas étudiant**
+* sinon si ``` age ``` est plus petit que _18_ **et** si ``` estEtudiant ``` est égal à _true_, assignez à la variable ``` phrase ``` la valeur **Je suis mineur et étudiant**
+* sinon assignez à la variable ``` phrase ``` la valeur **Je suis mineur mais pas étudiant**
+
+@[Écrivez le test de comparaison]({"stubs":["02_comparaison_logique_et.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_logique_et.test.js --reporter list"})
+
 
 ## Question de fin de chapitre
 
