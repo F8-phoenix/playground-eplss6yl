@@ -121,7 +121,7 @@ Pour ces raisons il est conseillé de prendre l'habitude de toujours utiliser la
 
 ### Les opérateurs logiques
 
-Il est possible que l'on souhaite que plusieurs conditions soient réunies avant d'exécuter une instruction. Dans ce cas il faut utiliser l'opérateur logique ``` && ```. Il signifie qu'autant la condition **et** celle à sa droite doivent être valides pour que le bloc d'instructions soit exécuté.
+Il est possible que l'on souhaite que plusieurs conditions soient réunies avant d'exécuter une instruction. Dans ce cas il faut utiliser l'opérateur logique ``` && ```. Il signifie qu'autant la condition à sa gauche **et** celle à sa droite doivent être valides pour que le bloc d'instructions soit exécuté.
 
 Il se peut également que l'on souhaite qu'une condition **ou** une autre ne soit valide pour exécuter le bloc d'instructions. Dans ce cas il faut utiliser l'opérateur logique ``` || ```.
 
@@ -148,7 +148,7 @@ Il se peut également que l'on souhaite qu'une condition **ou** une autre ne soi
 
 L'instruction ``` switch ``` est une alternative à l'utilisation des tests conditionnels avec des ```if ```, ``` else if ```, ``` else ```.
 
-Il se présente de la manière suivante : 
+Il se présente de la manière suivante :
 
 ```js
 let saison = "été"
@@ -203,7 +203,7 @@ switch (saison) {
 
 la variable ``` phrase ``` aura _Il fait gris_ comme valeur, car il n'y a pas de ``` break ``` après l'affectation de la valeur à la variable ``` phrase ```.
 
-Le mot clé ``` default ``` peut quand à lui être comparé au ``` else ``` d'un ``` if ```. Si aucune condition n'est satisfaite, c'est ce bloc de code qui sera exécuté. 
+Le mot clé ``` default ``` peut quand à lui être comparé au ``` else ``` d'un ``` if ```. Si aucune condition n'est satisfaite, c'est ce bloc de code qui sera exécuté.
 
 @[Écrivez le test de comparaison avec un switch]({"stubs":["02_comparaison_switch.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_switch.test.js --reporter list"})
 
@@ -241,4 +241,4 @@ Les questions ci-dessous permettent de valider les connaissances acquises.
 ?[Que se passe-t-il si on ne met pas le mot clé break lorsque l'on rentre dans un switch ?]
 -[ ] Le bloc d'instruction default sera automatiquement exécuté
 -[x] Le bloc d'instruction suivant sera exécuté
--[x] Les blocs d'instruction suivants sont exécutés, sans contrôle de la valeur de la condition du case 
+-[x] Les blocs d'instruction suivants sont exécutés, sans contrôle de la valeur de la condition du case
