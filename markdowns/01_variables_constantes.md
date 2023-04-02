@@ -219,7 +219,7 @@ const COULEUR_ROUGE = "#f00"
 Le deuxième cas concerne une constante dont la valeur est calculée à l'exécution. Dans ce cas elle sera notée de la même manière qu'une variable :
 
 ```js
-let monFormulaire = document.querySelector('form')
+const monFormulaire = document.querySelector('form')
 ```
 
 ### Exercice
