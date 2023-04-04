@@ -4,8 +4,6 @@ plan:
   statement: markdowns/01_variables_constantes.md
 - title: Les conditions
   statement: markdowns/02_conditions.md
-- title: Les boucles
-  statement: markdowns/03_boucles.md
 projects:
   nodejs:
     root: /nodejs-project
