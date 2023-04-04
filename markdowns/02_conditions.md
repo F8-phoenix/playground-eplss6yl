@@ -144,11 +144,72 @@ Il se peut également que l'on souhaite qu'une condition **ou** une autre ne soi
 
 @[Écrivez le test de comparaison]({"stubs":["02_comparaison_logique_ou.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_logique_ou.test.js --reporter list"})
 
-## Question de fin de chapitre
+## Le switch
+
+L'instruction ``` switch ``` est une alternative à l'utilisation des tests conditionnels avec des ```if ```, ``` else if ```, ``` else ```.
+
+Il se présente de la manière suivante : 
+
+```js
+let saison = "été"
+let phrase = ""
+
+switch (saison) {
+    case "hiver" :
+        phrase = "Il fait froid"
+        break
+    case "printemps" :
+        phrase = "Il fait bon"
+        break
+    case "été" :
+        phrase = "Il fait chaud"
+        break
+    case "automne" :
+        phrase = "Il fait gris"
+        break
+    default :
+        phrase = "Je ne connais pas cette saison"
+}
+```
+
+Dans l'exemple ci-dessus la variable ``` phrase ``` aura comme valeur _Il fait chaud_. La variable ``` saison ``` ayant _été_ comme valeur, l'instruction ``` case "été" ``` est vérifiée.
+
+Le mot clé ``` break ``` signifie que le code est exécuté du ```case ``` vérifié, jusqu'au prochain ``` break ```.
+
+Si aucun ``` break ``` n'est trouvé à la fin d'un ```case ```, le code continue de s'exécuter et la condition du ```case ``` suivant n'est pas vérifiée!
+
+Dans cet exemple :
+
+```js
+let saison = "été"
+let phrase = ""
+
+switch (saison) {
+    case "hiver" :
+        phrase = "Il fait froid"
+        break
+    case "printemps" :
+        phrase = "Il fait bon"
+        break
+    case "été" :
+        phrase = "Il fait chaud"
+    case "automne" :
+        phrase = "Il fait gris"
+        break
+    default :
+        phrase = "Je ne connais pas cette saison"
+}
+```
+
+la variable ``` phrase ``` aura _Il fait gris_ comme valeur, car il n'y a pas de ``` break ``` après l'affectation de la valeur à la variable ``` phrase ```.
+
+Le mot clé ``` default ``` peut quand à lui être comparé au ``` else ``` d'un ``` if ```. Si aucune condition n'est satisfaite, c'est ce bloc de code qui sera exécuté. 
+
+## Questions de fin de chapitre
 
 Les questions ci-dessous permettent de valider les connaissances acquises.
 
-?[Soit l'instruction if ("0") { /* ... */ }. L'instruction sera-t-elle exécutée ?]
+?[Soit l'instruction if ("0") { /* ... */ }. Le bloc d'instruction (entre {}) sera-t-il exécuté ?]
 -[x] Oui
 -[ ] Non
 
@@ -167,3 +228,15 @@ Les questions ci-dessous permettent de valider les connaissances acquises.
 -[ ] &&
 -[x] ||
 -[ ] ??
+
+?[Quelles instructions de tests conditionnelles sont valides en JavaScript ?]
+-[x] if (condition) {/* ... */}
+-[x] else if (condition) {/* ... */}
+-[ ] elseif (condition) {/* ... */}
+-[ ] else (condition) {/* ... */}
+-[x] else {/* ... */}
+
+?[Que se passe-t-il si on ne met pas le mot clé break lorsque l'on rentre dans un switch ?]
+-[ ] Le bloc d'instruction default sera automatiquement exécuté
+-[x] Le bloc d'instruction suivant sera exécuté
+-[x] Les blocs d'instruction suivants sont exécutés, sans contrôle de la valeur de la condition du case 
