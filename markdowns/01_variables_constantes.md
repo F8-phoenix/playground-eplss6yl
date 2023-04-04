@@ -243,7 +243,7 @@ let let = "est invalide" // let est un mot réservé
 
 La liste complète est disponible sur le site de [w3schools](https://www.w3schools.com/js/js_reserved.asp).
 
-## Question de fin de chapitre
+## Questions de fin de chapitre
 
 Les questions ci-dessous permettent de valider les connaissances acquises.
 
