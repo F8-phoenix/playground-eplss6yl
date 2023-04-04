@@ -136,7 +136,6 @@ Il se peut également que l'on souhaite qu'une condition **ou** une autre ne soi
 
 @[Écrivez le test de comparaison]({"stubs":["02_comparaison_logique_et.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_logique_et.test.js --reporter list"})
 
-
 ## Question de fin de chapitre
 
 Les questions ci-dessous permettent de valider les connaissances acquises.
