@@ -136,6 +136,14 @@ Il se peut également que l'on souhaite qu'une condition **ou** une autre ne soi
 
 @[Écrivez le test de comparaison]({"stubs":["02_comparaison_logique_et.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_logique_et.test.js --reporter list"})
 
+Écrivez un test de comparaison qui utilise 4 variables ``` age ```, ``` estAuChomage ```, ``` estEtudiant ``` et ``` phrase ``` :
+
+* si ``` age ``` est plus petit que _16_, assignez à la variable ```phrase ``` la valeur **tarif enfant**
+* sinon si ``` age ``` est plus petit que _18_, **ou** si ``` age ``` est plus grand ou égal à 65, **ou** si ``` estAuChomage ``` est égal à _true_, **ou** si ``` age ``` est plus petit que _25_ mais que ```estEtudiant ``` est égal à _true_, assignez à la variable ```phrase ``` la valeur **tarif réduit**
+* sinon assignez à la variable ```phrase ``` la valeur **plein tarif**
+
+@[Écrivez le test de comparaison]({"stubs":["02_comparaison_logique_ou.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_logique_ou.test.js --reporter list"})
+
 ## Question de fin de chapitre
 
 Les questions ci-dessous permettent de valider les connaissances acquises.
