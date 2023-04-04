@@ -205,6 +205,8 @@ la variable ``` phrase ``` aura _Il fait gris_ comme valeur, car il n'y a pas de
 
 Le mot clé ``` default ``` peut quand à lui être comparé au ``` else ``` d'un ``` if ```. Si aucune condition n'est satisfaite, c'est ce bloc de code qui sera exécuté. 
 
+@[Écrivez le test de comparaison avec un switch]({"stubs":["02_comparaison_logique_switch.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_logique_switch.test.js --reporter list"})
+
 ## Questions de fin de chapitre
 
 Les questions ci-dessous permettent de valider les connaissances acquises.
