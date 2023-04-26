@@ -74,13 +74,13 @@ Le tableau ci-dessous montre les différents opérateurs de comparaisons possibl
 | ==        | Est égal à                        | 7 == 8    | false    |
 | !=        | Est différent de                  | 7 != 8    | true     |
 | ===       | Est égal à (valeur et type)       | '7' === 7 | false    |
-| !==       | Est différent de (valeur et type) | '7' === 7 | true     |
+| !==       | Est différent de (valeur et type) | '7' !== 7 | true     |
 
 ### Exercices
 
 Écrivez un test de comparaison qui compare une variable de type _number_ au chiffre 5 :
 
-* si ``` nombre1 ``` est plus petit ou égal à _5_, assignez à la variable ``` retour ``` la valeur **true**
+* si ``` nombre ``` est plus petit ou égal à _5_, assignez à la variable ``` retour ``` la valeur **true**
 * sinon, assignez à la variable ``` retour ``` la valeur **false**
 
 @[Écrivez le test de comparaison]({"stubs":["02_comparaison_nombre_5.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_nombre_5.test.js --reporter list"})
