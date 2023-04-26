@@ -117,7 +117,7 @@ Pour ces raisons il est conseillé de prendre l'habitude de toujours utiliser la
 * si les 2 valeurs et leurs types sont identiques, assignez à la variable ``` retour ``` la valeur **true**
 * sinon assignez à la variable ``` retour ``` la valeur **false**
 
-@[Écrivez le test de comparaison]({"stubs":["02_comparaison_sans_type.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_sans_type.test.js --reporter list"})
+@[Écrivez le test de comparaison]({"stubs":["02_comparaison_avec_type.js"], "command":"node_modules/mocha/bin/mocha 02_comparaison_avec_type.test.js --reporter list"})
 
 ### Les opérateurs logiques
 
